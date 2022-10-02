@@ -1,0 +1,81 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    top: 790px;
+    position: absolute;
+    box-sizing: border-box;
+    overflow-x:auto ;
+    width: 1290px;
+    box-sizing: border-box;
+    margin-left: 69px;
+}
+.cardItem img{
+    width: 366px;
+    height: 307px;
+}
+.cardItem{
+    width: 366px;
+    display: flex;
+    flex-direction: column;
+    height: 472px;
+    box-sizing: border-box;
+    margin-left: 34px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.productName{
+    font-family: 'Montserrat';
+    width: 100%;
+    margin-left: 5px;
+    min-height: 32px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+}
+.Price{
+    display: flex;
+    margin-left: auto;
+    margin-right: 15px;
+}
+.starAndPrice{
+    display: flex;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.oldPrice{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #444444;
+    margin-right: 11px;
+    text-decoration: line-through;
+}
+.newPrice{
+    width: 92px;
+    height: 32px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+.addToCart{
+    width: 328px;
+    height: 43px;
+    margin-left: 18px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    background-color: #32A6F0;
+    border-radius: 10px;
+    border: #32A6F0;
+    color: #ffff;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
